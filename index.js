@@ -18,5 +18,6 @@ console.log('address            :', '0x' + toHex(address));
 
 
 const addressEip55 = encode('0x' + toHex(address));
+console.log('=======================================');  
 console.log('pub address (EIP-55)   :', addressEip55);  
 console.log('private key        :  ', toHex(privateKey));              
